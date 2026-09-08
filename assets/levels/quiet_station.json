@@ -1,0 +1,1664 @@
+{
+ "title": "THE QUIET STATION",
+ "briefing": "VRITRA COMBINE HAS REOCCUPIED RESEARCH POST 4. ENTER THROUGH THE SOUTH BREACH, CUT THEIR COMMS, WIPE THE DATA CORE, AND WALK BACK OUT.",
+ "playerStart": [
+  0.0,
+  0.3,
+  42.0
+ ],
+ "sunDirection": [
+  -0.38,
+  -0.86,
+  -0.34
+ ],
+ "sunColour": [
+  1.0,
+  0.93,
+  0.8
+ ],
+ "fogColour": [
+  0.075,
+  0.09,
+  0.115
+ ],
+ "groundSize": 140.0,
+ "boxes": [
+  {
+   "centre": [
+    0.0,
+    1.8,
+    -46.0
+   ],
+   "halfExtents": [
+    46.0,
+    1.8,
+    0.6
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -46.0,
+    1.8,
+    0.0
+   ],
+   "halfExtents": [
+    0.6,
+    1.8,
+    46.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    46.0,
+    1.8,
+    0.0
+   ],
+   "halfExtents": [
+    0.6,
+    1.8,
+    46.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -26.0,
+    1.8,
+    46.0
+   ],
+   "halfExtents": [
+    20.0,
+    1.8,
+    0.6
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    26.0,
+    1.8,
+    46.0
+   ],
+   "halfExtents": [
+    20.0,
+    1.8,
+    0.6
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    3.0,
+    -39.0
+   ],
+   "halfExtents": [
+    14.0,
+    3.0,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -14.0,
+    3.0,
+    -30.0
+   ],
+   "halfExtents": [
+    0.5,
+    3.0,
+    9.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    14.0,
+    3.0,
+    -30.0
+   ],
+   "halfExtents": [
+    0.5,
+    3.0,
+    9.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -9.5,
+    3.0,
+    -21.0
+   ],
+   "halfExtents": [
+    4.5,
+    3.0,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    9.5,
+    3.0,
+    -21.0
+   ],
+   "halfExtents": [
+    4.5,
+    3.0,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    6.3,
+    -30.0
+   ],
+   "halfExtents": [
+    14.0,
+    0.3,
+    9.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    1.6,
+    -32.0
+   ],
+   "halfExtents": [
+    0.4,
+    1.6,
+    5.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    6.0,
+    1.6,
+    -28.0
+   ],
+   "halfExtents": [
+    0.4,
+    1.6,
+    4.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -28.0,
+    2.0,
+    -20.0
+   ],
+   "halfExtents": [
+    7.0,
+    2.0,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -28.0,
+    2.0,
+    -8.0
+   ],
+   "halfExtents": [
+    7.0,
+    2.0,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -35.0,
+    2.0,
+    -14.0
+   ],
+   "halfExtents": [
+    0.5,
+    2.0,
+    6.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -21.0,
+    2.0,
+    -18.0
+   ],
+   "halfExtents": [
+    0.5,
+    2.0,
+    2.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -21.0,
+    2.0,
+    -10.0
+   ],
+   "halfExtents": [
+    0.5,
+    2.0,
+    2.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -28.0,
+    4.3,
+    -14.0
+   ],
+   "halfExtents": [
+    7.0,
+    0.3,
+    6.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    28.0,
+    2.0,
+    -23.0
+   ],
+   "halfExtents": [
+    6.0,
+    2.0,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    28.0,
+    2.0,
+    -9.0
+   ],
+   "halfExtents": [
+    6.0,
+    2.0,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    22.0,
+    2.0,
+    -20.5
+   ],
+   "halfExtents": [
+    0.5,
+    2.0,
+    2.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    22.0,
+    2.0,
+    -11.5
+   ],
+   "halfExtents": [
+    0.5,
+    2.0,
+    2.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    34.0,
+    2.0,
+    -16.0
+   ],
+   "halfExtents": [
+    0.5,
+    2.0,
+    7.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    28.0,
+    4.3,
+    -16.0
+   ],
+   "halfExtents": [
+    6.0,
+    0.3,
+    7.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -30.0,
+    1.75,
+    13.0
+   ],
+   "halfExtents": [
+    6.0,
+    1.75,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -30.0,
+    1.75,
+    23.0
+   ],
+   "halfExtents": [
+    6.0,
+    1.75,
+    0.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -36.0,
+    1.75,
+    18.0
+   ],
+   "halfExtents": [
+    0.5,
+    1.75,
+    5.0
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -24.0,
+    1.75,
+    14.5
+   ],
+   "halfExtents": [
+    0.5,
+    1.75,
+    1.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -24.0,
+    1.75,
+    21.5
+   ],
+   "halfExtents": [
+    0.5,
+    1.75,
+    1.5
+   ],
+   "albedo": [
+    0.4,
+    0.4,
+    0.37
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -30.0,
+    3.8,
+    18.0
+   ],
+   "halfExtents": [
+    6.0,
+    0.3,
+    5.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -34.0,
+    2.5,
+    -34.0
+   ],
+   "halfExtents": [
+    1.6,
+    2.5,
+    1.6
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -34.0,
+    5.3,
+    -34.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.3,
+    2.6
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    34.0,
+    2.5,
+    -34.0
+   ],
+   "halfExtents": [
+    1.6,
+    2.5,
+    1.6
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    34.0,
+    5.3,
+    -34.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.3,
+    2.6
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    34.0,
+    2.5,
+    24.0
+   ],
+   "halfExtents": [
+    1.6,
+    2.5,
+    1.6
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    34.0,
+    5.3,
+    24.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.3,
+    2.6
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -12.0,
+    0.6,
+    10.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -6.0,
+    0.95,
+    6.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    2.0,
+    1.2999999999999998,
+    12.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    9.0,
+    0.6,
+    4.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    16.0,
+    0.95,
+    10.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -18.0,
+    1.2999999999999998,
+    2.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    20.0,
+    0.6,
+    -4.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -22.0,
+    0.95,
+    -6.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    6.0,
+    1.2999999999999998,
+    -12.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -8.0,
+    0.6,
+    -14.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    14.0,
+    0.95,
+    -20.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -16.0,
+    1.2999999999999998,
+    -22.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    24.0,
+    0.6,
+    12.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -26.0,
+    0.95,
+    8.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    1.2999999999999998,
+    22.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    10.0,
+    0.6,
+    26.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -10.0,
+    0.95,
+    28.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    30.0,
+    1.2999999999999998,
+    2.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -34.0,
+    0.6,
+    -8.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    18.0,
+    0.95,
+    -30.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -20.0,
+    1.2999999999999998,
+    -32.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    4.0,
+    0.6,
+    -44.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.6,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -4.0,
+    0.95,
+    34.0
+   ],
+   "halfExtents": [
+    1.1,
+    0.95,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    26.0,
+    1.2999999999999998,
+    30.0
+   ],
+   "halfExtents": [
+    1.1,
+    1.2999999999999998,
+    1.1
+   ],
+   "albedo": [
+    0.44,
+    0.43,
+    0.4
+   ],
+   "roughness": 0.8,
+   "collides": true
+  },
+  {
+   "centre": [
+    -3.0,
+    1.0,
+    -6.0
+   ],
+   "halfExtents": [
+    2.5,
+    1.0,
+    0.8
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    1.0,
+    -2.0
+   ],
+   "halfExtents": [
+    0.8,
+    1.0,
+    3.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -14.0,
+    0.55,
+    -4.0
+   ],
+   "halfExtents": [
+    0.5,
+    0.55,
+    0.5
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.7,
+   "collides": true
+  },
+  {
+   "centre": [
+    -12.0,
+    0.55,
+    -4.0
+   ],
+   "halfExtents": [
+    0.5,
+    0.55,
+    0.5
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.7,
+   "collides": true
+  },
+  {
+   "centre": [
+    12.0,
+    0.55,
+    16.0
+   ],
+   "halfExtents": [
+    0.5,
+    0.55,
+    0.5
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.7,
+   "collides": true
+  },
+  {
+   "centre": [
+    14.0,
+    0.55,
+    16.0
+   ],
+   "halfExtents": [
+    0.5,
+    0.55,
+    0.5
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.7,
+   "collides": true
+  },
+  {
+   "centre": [
+    -30.0,
+    0.55,
+    -26.0
+   ],
+   "halfExtents": [
+    0.5,
+    0.55,
+    0.5
+   ],
+   "albedo": [
+    0.38,
+    0.26,
+    0.2
+   ],
+   "roughness": 0.7,
+   "collides": true
+  }
+ ],
+ "guards": [
+  {
+   "position": [
+    -14.0,
+    0.0,
+    30.0
+   ],
+   "patrol": [
+    [
+     -14.0,
+     0.0,
+     30.0
+    ],
+    [
+     -14.0,
+     0.0,
+     16.0
+    ],
+    [
+     -2.0,
+     0.0,
+     16.0
+    ],
+    [
+     -2.0,
+     0.0,
+     30.0
+    ]
+   ],
+   "accuracy": 0.38,
+   "visionRange": 45,
+   "visionHalfAngle": 50,
+   "squad": 0
+  },
+  {
+   "position": [
+    16.0,
+    0.0,
+    28.0
+   ],
+   "patrol": [
+    [
+     16.0,
+     0.0,
+     28.0
+    ],
+    [
+     16.0,
+     0.0,
+     14.0
+    ],
+    [
+     26.0,
+     0.0,
+     14.0
+    ],
+    [
+     25.5,
+     0.0,
+     27.5
+    ]
+   ],
+   "accuracy": 0.38,
+   "visionRange": 45,
+   "visionHalfAngle": 50,
+   "squad": 0
+  },
+  {
+   "position": [
+    -24.0,
+    0.0,
+    4.0
+   ],
+   "patrol": [
+    [
+     -24.0,
+     0.0,
+     4.0
+    ],
+    [
+     -24.5,
+     0.0,
+     -6.5
+    ],
+    [
+     -10.0,
+     0.0,
+     -8.0
+    ],
+    [
+     -10.0,
+     0.0,
+     4.0
+    ]
+   ],
+   "accuracy": 0.45,
+   "visionRange": 55,
+   "visionHalfAngle": 55,
+   "squad": 1
+  },
+  {
+   "position": [
+    22.0,
+    0.0,
+    2.0
+   ],
+   "patrol": [
+    [
+     22.0,
+     0.0,
+     2.0
+    ],
+    [
+     23.0,
+     0.0,
+     -12.0
+    ],
+    [
+     10.0,
+     0.0,
+     -12.0
+    ],
+    [
+     10.5,
+     0.0,
+     1.5
+    ]
+   ],
+   "accuracy": 0.45,
+   "visionRange": 55,
+   "visionHalfAngle": 55,
+   "squad": 1
+  },
+  {
+   "position": [
+    0.0,
+    0.0,
+    6.0
+   ],
+   "patrol": [
+    [
+     0.0,
+     0.0,
+     6.0
+    ],
+    [
+     -8.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     -6.0
+    ],
+    [
+     8.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "accuracy": 0.48,
+   "visionRange": 55,
+   "visionHalfAngle": 60,
+   "squad": 1
+  },
+  {
+   "position": [
+    -8.0,
+    0.0,
+    -24.0
+   ],
+   "patrol": [
+    [
+     -8.0,
+     0.0,
+     -24.0
+    ],
+    [
+     8.0,
+     0.0,
+     -24.0
+    ]
+   ],
+   "accuracy": 0.55,
+   "visionRange": 60,
+   "visionHalfAngle": 60,
+   "squad": 2
+  },
+  {
+   "position": [
+    9.0,
+    0.0,
+    -33.0
+   ],
+   "patrol": [
+    [
+     9.0,
+     0.0,
+     -33.0
+    ],
+    [
+     9.0,
+     0.0,
+     -25.0
+    ],
+    [
+     -9.0,
+     0.0,
+     -25.0
+    ],
+    [
+     -9.0,
+     0.0,
+     -33.0
+    ]
+   ],
+   "accuracy": 0.55,
+   "visionRange": 60,
+   "visionHalfAngle": 60,
+   "squad": 2
+  },
+  {
+   "position": [
+    -11.0,
+    0.0,
+    -33.0
+   ],
+   "patrol": [
+    [
+     -11.0,
+     0.0,
+     -33.0
+    ],
+    [
+     -11.0,
+     0.0,
+     -27.0
+    ]
+   ],
+   "accuracy": 0.52,
+   "visionRange": 58,
+   "visionHalfAngle": 58,
+   "squad": 2
+  },
+  {
+   "position": [
+    -30.0,
+    0.0,
+    -19.0
+   ],
+   "patrol": [
+    [
+     -30.0,
+     0.0,
+     -19.0
+    ],
+    [
+     -30.0,
+     0.0,
+     -34.0
+    ],
+    [
+     -18.0,
+     0.0,
+     -34.0
+    ]
+   ],
+   "accuracy": 0.5,
+   "visionRange": 55,
+   "visionHalfAngle": 55,
+   "squad": 3
+  },
+  {
+   "position": [
+    30.0,
+    0.0,
+    -22.0
+   ],
+   "patrol": [
+    [
+     30.0,
+     0.0,
+     -22.0
+    ],
+    [
+     30.0,
+     0.0,
+     -36.0
+    ],
+    [
+     20.0,
+     0.0,
+     -36.0
+    ]
+   ],
+   "accuracy": 0.5,
+   "visionRange": 55,
+   "visionHalfAngle": 55,
+   "squad": 3
+  }
+ ],
+ "objectives": [
+  {
+   "id": "breach",
+   "label": "REACH THE SOUTH BREACH",
+   "position": [
+    0.0,
+    0.0,
+    44.0
+   ],
+   "radius": 5.0,
+   "destroy": false
+  },
+  {
+   "id": "relay",
+   "label": "SABOTAGE THE COMMS RELAY  [E]",
+   "position": [
+    -24.0,
+    0.0,
+    -14.0
+   ],
+   "radius": 3.0,
+   "destroy": true
+  },
+  {
+   "id": "core",
+   "label": "WIPE THE DATA CORE  [E]",
+   "position": [
+    0.0,
+    0.0,
+    -32.0
+   ],
+   "radius": 3.0,
+   "destroy": true
+  }
+ ],
+ "extraction": {
+  "position": [
+   0.0,
+   0.0,
+   42.0
+  ],
+  "radius": 5.0
+ }
+}

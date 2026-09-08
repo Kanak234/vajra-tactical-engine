@@ -1,0 +1,25 @@
+# Flatpak manifest. Build with:
+#   flatpak-builder --user --install --force-clean \
+#       build-flatpak packaging/io.github.vajra.Vajra.yml
+app-id: io.github.vajra.Vajra
+runtime: org.freedesktop.Platform
+runtime-version: '23.08'
+sdk: org.freedesktop.Sdk
+command: vajra
+
+finish-args:
+  - --socket=x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --device=dri
+  - --share=ipc
+  # No network access: the game does not need it, so it does not get it.
+
+modules:
+  - name: vajra
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_BUILD_TYPE=Release
+    sources:
+      - type: dir
+        path: ../

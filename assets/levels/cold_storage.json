@@ -1,0 +1,1985 @@
+{
+ "title": "COLD STORAGE",
+ "briefing": "THE ROBOTICS LAB RUNS ON AUTONOMOUS SENTRIES. THEY CANNOT HEAR YOU AND THEY CANNOT CALL FOR HELP - BUT THEY SEE IN EVERY DIRECTION. PURGE THE PROTOTYPE ARCHIVE AND GET OUT.",
+ "playerStart": [
+  0.0,
+  0.3,
+  40.0
+ ],
+ "sunDirection": [
+  -0.15,
+  -0.95,
+  -0.1
+ ],
+ "sunColour": [
+  0.72,
+  0.8,
+  0.92
+ ],
+ "fogColour": [
+  0.055,
+  0.065,
+  0.08
+ ],
+ "groundSize": 110.0,
+ "boxes": [
+  {
+   "centre": [
+    0.0,
+    4.0,
+    -44.0
+   ],
+   "halfExtents": [
+    34.0,
+    4.0,
+    0.6
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    4.0,
+    44.0
+   ],
+   "halfExtents": [
+    34.0,
+    4.0,
+    0.6
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -34.0,
+    4.0,
+    0.0
+   ],
+   "halfExtents": [
+    0.6,
+    4.0,
+    44.0
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    34.0,
+    4.0,
+    0.0
+   ],
+   "halfExtents": [
+    0.6,
+    4.0,
+    44.0
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    8.3,
+    0.0
+   ],
+   "halfExtents": [
+    34.0,
+    0.3,
+    44.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -6.0,
+    4.0,
+    44.0
+   ],
+   "halfExtents": [
+    28.0,
+    4.0,
+    0.6
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    6.0,
+    4.0,
+    44.0
+   ],
+   "halfExtents": [
+    28.0,
+    4.0,
+    0.6
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    1.6,
+    30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    3.4,
+    30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    1.6,
+    30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    3.4,
+    30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    1.6,
+    30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    3.4,
+    30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    1.6,
+    30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    3.4,
+    30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    1.6,
+    30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    3.4,
+    30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    1.6,
+    30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    3.4,
+    30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    1.6,
+    15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    3.4,
+    15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    1.6,
+    15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    3.4,
+    15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    1.6,
+    15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    3.4,
+    15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    1.6,
+    15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    3.4,
+    15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    1.6,
+    15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    3.4,
+    15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    1.6,
+    15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    3.4,
+    15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    1.6,
+    0.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    3.4,
+    0.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    1.6,
+    0.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    3.4,
+    0.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    1.6,
+    0.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    3.4,
+    0.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    1.6,
+    0.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    3.4,
+    0.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    1.6,
+    -15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    3.4,
+    -15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    1.6,
+    -15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    3.4,
+    -15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    1.6,
+    -15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    3.4,
+    -15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    1.6,
+    -15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    3.4,
+    -15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    1.6,
+    -15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    3.4,
+    -15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    1.6,
+    -15.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    3.4,
+    -15.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    1.6,
+    -30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -25.0,
+    3.4,
+    -30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    1.6,
+    -30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -15.0,
+    3.4,
+    -30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    1.6,
+    -30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.0,
+    3.4,
+    -30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    1.6,
+    -30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    3.4,
+    -30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    1.6,
+    -30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    15.0,
+    3.4,
+    -30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    1.6,
+    -30.0
+   ],
+   "halfExtents": [
+    3.2,
+    1.6,
+    1.1
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.45,
+   "collides": true
+  },
+  {
+   "centre": [
+    25.0,
+    3.4,
+    -30.0
+   ],
+   "halfExtents": [
+    2.6,
+    0.2,
+    0.9
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -18.0,
+    2.2,
+    8.0
+   ],
+   "halfExtents": [
+    1.5,
+    2.2,
+    1.5
+   ],
+   "albedo": [
+    0.62,
+    0.68,
+    0.74
+   ],
+   "roughness": 0.25,
+   "collides": true
+  },
+  {
+   "centre": [
+    -18.0,
+    2.2,
+    -8.0
+   ],
+   "halfExtents": [
+    1.5,
+    2.2,
+    1.5
+   ],
+   "albedo": [
+    0.62,
+    0.68,
+    0.74
+   ],
+   "roughness": 0.25,
+   "collides": true
+  },
+  {
+   "centre": [
+    18.0,
+    2.2,
+    8.0
+   ],
+   "halfExtents": [
+    1.5,
+    2.2,
+    1.5
+   ],
+   "albedo": [
+    0.62,
+    0.68,
+    0.74
+   ],
+   "roughness": 0.25,
+   "collides": true
+  },
+  {
+   "centre": [
+    18.0,
+    2.2,
+    -8.0
+   ],
+   "halfExtents": [
+    1.5,
+    2.2,
+    1.5
+   ],
+   "albedo": [
+    0.62,
+    0.68,
+    0.74
+   ],
+   "roughness": 0.25,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    2.2,
+    -24.0
+   ],
+   "halfExtents": [
+    1.5,
+    2.2,
+    1.5
+   ],
+   "albedo": [
+    0.62,
+    0.68,
+    0.74
+   ],
+   "roughness": 0.25,
+   "collides": true
+  },
+  {
+   "centre": [
+    -9.0,
+    2.4,
+    18.0
+   ],
+   "halfExtents": [
+    0.4,
+    2.4,
+    7.0
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    9.0,
+    2.4,
+    18.0
+   ],
+   "halfExtents": [
+    0.4,
+    2.4,
+    7.0
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -9.0,
+    2.4,
+    -14.0
+   ],
+   "halfExtents": [
+    0.4,
+    2.4,
+    7.0
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    9.0,
+    2.4,
+    -14.0
+   ],
+   "halfExtents": [
+    0.4,
+    2.4,
+    7.0
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -7.5,
+    2.4,
+    -30.0
+   ],
+   "halfExtents": [
+    4.5,
+    2.4,
+    0.4
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    2.25,
+    -43.0
+   ],
+   "halfExtents": [
+    8.0,
+    2.25,
+    0.5
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -5.25,
+    2.25,
+    -33.0
+   ],
+   "halfExtents": [
+    2.75,
+    2.25,
+    0.5
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.25,
+    2.25,
+    -33.0
+   ],
+   "halfExtents": [
+    2.75,
+    2.25,
+    0.5
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -8.0,
+    2.25,
+    -38.0
+   ],
+   "halfExtents": [
+    0.5,
+    2.25,
+    5.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    8.0,
+    2.25,
+    -38.0
+   ],
+   "halfExtents": [
+    0.5,
+    2.25,
+    5.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    0.0,
+    4.8,
+    -38.0
+   ],
+   "halfExtents": [
+    8.0,
+    0.3,
+    5.0
+   ],
+   "albedo": [
+    0.26,
+    0.27,
+    0.26
+   ],
+   "roughness": 0.85,
+   "collides": true
+  },
+  {
+   "centre": [
+    -13.0,
+    0.55,
+    24.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.55,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    13.0,
+    0.8,
+    24.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.8,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -4.0,
+    0.55,
+    10.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.55,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    5.0,
+    0.8,
+    -2.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.8,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -14.0,
+    0.55,
+    -18.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.55,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    14.0,
+    0.8,
+    -20.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.8,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    -6.0,
+    0.55,
+    -28.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.55,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    7.0,
+    0.8,
+    -30.0
+   ],
+   "halfExtents": [
+    1.0,
+    0.8,
+    1.0
+   ],
+   "albedo": [
+    0.33,
+    0.35,
+    0.38
+   ],
+   "roughness": 0.5,
+   "collides": true
+  },
+  {
+   "centre": [
+    7.5,
+    2.4,
+    -30.0
+   ],
+   "halfExtents": [
+    4.5,
+    2.4,
+    0.4
+   ],
+   "albedo": [
+    0.3,
+    0.34,
+    0.36
+   ],
+   "roughness": 0.85,
+   "collides": true
+  }
+ ],
+ "guards": [
+  {
+   "position": [
+    -14.5,
+    0.0,
+    45.5
+   ],
+   "patrol": [
+    [
+     -14.5,
+     0.0,
+     45.5
+    ],
+    [
+     13.5,
+     0.0,
+     45.5
+    ]
+   ],
+   "accuracy": 0.4,
+   "visionRange": 17,
+   "visionHalfAngle": 180,
+   "squad": 9,
+   "machine": true
+  },
+  {
+   "position": [
+    35.5,
+    0.0,
+    19.5
+   ],
+   "patrol": [
+    [
+     35.5,
+     0.0,
+     19.5
+    ],
+    [
+     35.5,
+     0.0,
+     4.5
+    ],
+    [
+     35.5,
+     0.0,
+     4.5
+    ]
+   ],
+   "accuracy": 0.42,
+   "visionRange": 18,
+   "visionHalfAngle": 180,
+   "squad": 9,
+   "machine": true
+  },
+  {
+   "position": [
+    -35.5,
+    0.0,
+    16.5
+   ],
+   "patrol": [
+    [
+     -35.5,
+     0.0,
+     16.5
+    ],
+    [
+     -35.5,
+     0.0,
+     -1.5
+    ],
+    [
+     -35.5,
+     0.0,
+     0.5
+    ]
+   ],
+   "accuracy": 0.42,
+   "visionRange": 18,
+   "visionHalfAngle": 180,
+   "squad": 9,
+   "machine": true
+  },
+  {
+   "position": [
+    -35.5,
+    0.0,
+    -1.5
+   ],
+   "patrol": [
+    [
+     -35.5,
+     0.0,
+     -1.5
+    ],
+    [
+     35.5,
+     0.0,
+     -10.5
+    ],
+    [
+     0.5,
+     0.0,
+     -45.5
+    ],
+    [
+     -35.5,
+     0.0,
+     -9.5
+    ]
+   ],
+   "accuracy": 0.45,
+   "visionRange": 20,
+   "visionHalfAngle": 180,
+   "squad": 9,
+   "machine": true
+  },
+  {
+   "position": [
+    -35.5,
+    0.0,
+    -22.5
+   ],
+   "patrol": [
+    [
+     -35.5,
+     0.0,
+     -22.5
+    ],
+    [
+     -17.5,
+     0.0,
+     -45.5
+    ]
+   ],
+   "accuracy": 0.46,
+   "visionRange": 18,
+   "visionHalfAngle": 180,
+   "squad": 9,
+   "machine": true
+  },
+  {
+   "position": [
+    35.5,
+    0.0,
+    -23.5
+   ],
+   "patrol": [
+    [
+     35.5,
+     0.0,
+     -23.5
+    ],
+    [
+     17.5,
+     0.0,
+     -45.5
+    ]
+   ],
+   "accuracy": 0.46,
+   "visionRange": 18,
+   "visionHalfAngle": 180,
+   "squad": 9,
+   "machine": true
+  },
+  {
+   "position": [
+    0.5,
+    0.0,
+    -45.5
+   ],
+   "patrol": [
+    [
+     0.5,
+     0.0,
+     -45.5
+    ],
+    [
+     -9.5,
+     0.0,
+     -45.5
+    ],
+    [
+     9.5,
+     0.0,
+     -45.5
+    ]
+   ],
+   "accuracy": 0.5,
+   "visionRange": 20,
+   "visionHalfAngle": 180,
+   "squad": 9,
+   "machine": true
+  },
+  {
+   "position": [
+    -5.5,
+    0.0,
+    -45.5
+   ],
+   "patrol": [
+    [
+     -5.5,
+     0.0,
+     -45.5
+    ],
+    [
+     6.5,
+     0.0,
+     -45.5
+    ]
+   ],
+   "accuracy": 0.38,
+   "visionRange": 45,
+   "visionHalfAngle": 55,
+   "squad": 0,
+   "machine": false
+  },
+  {
+   "position": [
+    19.5,
+    0.0,
+    -45.5
+   ],
+   "patrol": [
+    [
+     19.5,
+     0.0,
+     -45.5
+    ],
+    [
+     35.5,
+     0.0,
+     -30.5
+    ]
+   ],
+   "accuracy": 0.38,
+   "visionRange": 45,
+   "visionHalfAngle": 55,
+   "squad": 0,
+   "machine": false
+  }
+ ],
+ "objectives": [
+  {
+   "id": "bay_a",
+   "label": "PURGE FABRICATION BAY  [E]",
+   "position": [
+    -19.98,
+    0.0,
+    8.25
+   ],
+   "radius": 3.2,
+   "destroy": true
+  },
+  {
+   "id": "bay_b",
+   "label": "PURGE ASSEMBLY BAY  [E]",
+   "position": [
+    16.02,
+    0.0,
+    -8.25
+   ],
+   "radius": 3.2,
+   "destroy": true
+  },
+  {
+   "id": "archive",
+   "label": "DESTROY THE PROTOTYPE ARCHIVE  [E]",
+   "position": [
+    0.0,
+    0.0,
+    -38.0
+   ],
+   "radius": 3.2,
+   "destroy": true
+  }
+ ],
+ "extraction": {
+  "position": [
+   0.0,
+   0.0,
+   40.0
+  ],
+  "radius": 5.0
+ }
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Vajra
+GenericName=Tactical Infiltration
+Comment=Tactical sci-fi infiltration in a Himalayan research station
+Exec=vajra
+Icon=vajra
+Terminal=false
+Categories=Game;ActionGame;
+Keywords=stealth;shooter;tactical;

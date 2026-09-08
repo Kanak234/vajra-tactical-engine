@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update -qq
+        sudo apt-get install -y --no-install-recommends \
+          build-essential cmake ninja-build \
+          libsdl2-dev libgl1-mesa-dev
+
+    - name: Configure CMake
+      run: |
+        cmake -B build -G Ninja \
+          -DCMAKE_BUILD_TYPE=Release
+
+    - name: Build engine and test suite
+      run: |
+        cmake --build build --target vajra_tests Vajra -j$(nproc)
+
+    - name: Run headless ctest test suite
+      run: |
+        ctest --test-dir build --output-on-failure
