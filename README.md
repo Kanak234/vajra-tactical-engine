@@ -1,5 +1,10 @@
 # VAJRA
 
+[![CI](https://github.com/Kanak234/vajra-tactical-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Kanak234/vajra-tactical-engine/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Kanak234/vajra-tactical-engine/actions/workflows/codeql.yml/badge.svg)](https://github.com/Kanak234/vajra-tactical-engine/actions/workflows/codeql.yml)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://en.cppreference.com/w/cpp/20)
+
 A playable tactical infiltration game and its engine, written from scratch in
 modern C++20 on Linux. No Unreal, no Unity, no Godot.
 
@@ -28,7 +33,7 @@ guard stuck in a wall, every patrol route walkable.
 | Animation | Procedural articulated actors — walk cycle, aim pose, death slump |
 | Particles | Pooled muzzle flashes, impact debris, dust, sparks, blood |
 | Tooling | Per-pass CPU profiler on F3, live quality toggles, shader hot-reload |
-| Packaging | AppImage script, Flatpak manifest, .desktop entry, install script |
+| Packaging | CPack (TGZ/ZIP), AppImage script, Flatpak manifest, .desktop entry, install script |
 | Physics | AABB world, raycasts, swept character movement with substepping |
 | Character | Gravity, crouch with headroom test, sprint, stance-based speed |
 | Weapons | Two hitscan weapons, magazines, reload, spread, ADS zoom, recoil |
@@ -37,7 +42,7 @@ guard stuck in a wall, every patrol route walkable.
 | HUD | Batched 2D overlay with a built-in bitmap font, one draw call |
 | Content | JSON levels — new mission is a new file, no recompile |
 | Persistence | Save / load |
-| Tests | Headless `ctest` suite for physics, navigation and level loading |
+| Tests | 103 test assertions across 5 suites (98.54% measured core line coverage) |
 
 ## Quick start
 
@@ -52,6 +57,34 @@ cmake --build --preset release -j$(nproc)
 **In CLion:** File → Open → select this folder → pick the **Release** preset →
 choose **Vajra** in the run dropdown → press Run. Nothing else to configure;
 asset paths are compiled in as absolute paths.
+
+## Testing & Quality
+
+Vajra includes a comprehensive test suite covering physics collision, A* navigation, weapon ballistics, mission state transitions, and level deserialization robustness.
+
+```bash
+# Standard test run
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --target vajra_tests -j$(nproc)
+./build/vajra_tests
+# or via CTest:
+ctest --test-dir build --output-on-failure
+
+# Memory safety & bounds verification (ASan + UBSan)
+cmake -B build_san -DENABLE_ASAN=ON -DENABLE_UBSAN=ON
+cmake --build build_san --target vajra_tests -j$(nproc)
+./build_san/vajra_tests
+
+# Code coverage profiling
+cmake -B build_cov -DENABLE_COVERAGE=ON
+cmake --build build_cov -j$(nproc)
+./build_cov/vajra_tests
+```
+
+## Security
+
+Security vulnerabilities and threat models are defined in [SECURITY.md](SECURITY.md). All pull requests are verified against AddressSanitizer, UndefinedBehaviorSanitizer, and GitHub CodeQL static analysis.
+
 
 ## Documentation
 
