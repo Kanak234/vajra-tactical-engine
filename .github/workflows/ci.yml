@@ -2,12 +2,13 @@ name: CI
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master", "prod-hardening" ]
   pull_request:
     branches: [ "main", "master" ]
 
 jobs:
   build-and-test:
+    name: Build & Test (GUI & Tests)
     runs-on: ubuntu-latest
 
     steps:
@@ -29,6 +30,60 @@ jobs:
       run: |
         cmake --build build --target vajra_tests Vajra -j$(nproc)
 
-    - name: Run headless ctest test suite
+    - name: Run test suite via ctest
       run: |
         ctest --test-dir build --output-on-failure
+
+  sanitizers:
+    name: Memory & Bounds Sanitizers (ASan + UBSan)
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update -qq
+        sudo apt-get install -y --no-install-recommends \
+          build-essential cmake ninja-build
+
+    - name: Configure CMake with Sanitizers
+      run: |
+        cmake -B build_san -G Ninja \
+          -DCMAKE_BUILD_TYPE=Debug \
+          -DENABLE_ASAN=ON \
+          -DENABLE_UBSAN=ON
+
+    - name: Build headless test suite
+      run: |
+        cmake --build build_san --target vajra_tests -j$(nproc)
+
+    - name: Run sanitizers test suite
+      run: |
+        ./build_san/vajra_tests
+
+  headless:
+    name: Headless Core Build
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install minimal dependencies
+      run: |
+        sudo apt-get update -qq
+        sudo apt-get install -y --no-install-recommends \
+          build-essential cmake ninja-build
+
+    - name: Configure CMake (Headless)
+      run: |
+        cmake -B build_headless -G Ninja \
+          -DCMAKE_BUILD_TYPE=Release
+
+    - name: Build headless target
+      run: |
+        cmake --build build_headless --target vajra_tests -j$(nproc)
+
+    - name: Run headless tests
+      run: |
+        ctest --test-dir build_headless --output-on-failure

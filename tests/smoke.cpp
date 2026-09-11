@@ -98,10 +98,26 @@ void validateLevel(const std::string& file) {
 
 }  // namespace
 
+void runCollisionTests(int& failures);
+void runNavigationTests(int& failures);
+void runGameplayTests(int& failures);
+void runLevelTests(int& failures);
+
 int main() {
+    std::printf("========================================\n");
+    std::printf("     VAJRA TACTICAL ENGINE TEST SUITE   \n");
+    std::printf("========================================\n");
+
     for (const char* file : {"quiet_station.json", "uplink.json", "cold_storage.json"})
         validateLevel(file);
 
-    std::printf("\n%s (%d failures)\n", g_failures == 0 ? "ALL CHECKS PASSED" : "FAILURES", g_failures);
+    runCollisionTests(g_failures);
+    runNavigationTests(g_failures);
+    runGameplayTests(g_failures);
+    runLevelTests(g_failures);
+
+    std::printf("\n========================================\n");
+    std::printf("TOTAL TEST RESULT: %s (%d failures)\n", g_failures == 0 ? "ALL CHECKS PASSED" : "FAILURES DETECTED", g_failures);
+    std::printf("========================================\n");
     return g_failures == 0 ? 0 : 1;
 }

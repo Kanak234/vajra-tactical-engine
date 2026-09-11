@@ -2,7 +2,7 @@ name: Repository Guard
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master", "prod-hardening" ]
   pull_request:
     branches: [ "main", "master" ]
 
@@ -16,6 +16,8 @@ jobs:
       run: |
         test -f CMakeLists.txt
         test -f README.md
+        test -f LICENSE
+        test -f SECURITY.md
         test -f src/main.cpp
         test -f tests/smoke.cpp
         test -f assets/levels/quiet_station.json

@@ -1,5 +1,27 @@
 build/
 cmake-build-*/
+.cache/
 .idea/
+.vscode/
 compile_commands.json
 *.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Python tooling caches
+__pycache__/
+*.py[cod]
+
+# Packaging / Distribution
+dist/
+packaging/*.AppImage
+packaging/*.flatpak
+
+# Coverage & testing
+*.gcda
+*.gcno
+*.gcov
+coverage/
